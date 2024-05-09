@@ -25,7 +25,7 @@ const Card = ({list,setList,edit,setedit,setIndex}) => {
         <div className="status">My Todos</div>
         <div className="status">
           Status Filter:
-          <select value={filter} style={{backgroundColor:(filter==="All" || filter === "Not Completed")?"#ff8888":"rgb(92, 229, 167)",border:"none",color:"white", width:filter==="All"?"40px":"130px",height:"35px"}} onChange={handleFilterChange}>
+          <select value={filter} style={{backgroundColor:(filter==="All" || filter === "Not Completed")?"#ff8888":"rgb(92, 229, 167)",border:"none",color:"white", width:filter==="All"?"50px":"130px",height:"35px"}} onChange={handleFilterChange}>
             <option value="All">All</option>
             <option value="Completed">Completed</option>
             <option value="Not Completed">Not Completed</option>
