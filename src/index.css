@@ -1,0 +1,42 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-continer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+h3{
+  color: rgb(92, 229, 167);
+  font-size: xx-large;
+  margin-top: 20px;
+}
+input[type=text] {
+  outline:1px solid rgb(92, 229, 167);
+} 
+.btnAdd{
+  background-color: rgb(92, 229, 167);
+  border: none;
+}
+.Filter-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.buttons{
+  text-align: end;
+}
+.card{
+  background-color: rgb(179, 254, 214);;
+  border: none;
+}
+.btnSave{
+  color: white;
+}
+.btnSave:hover{
+  color: #fff;
+}
